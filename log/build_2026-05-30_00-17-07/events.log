@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.002578] (-) JobUnselected: {'identifier': 'p0_py'}
+[0.002667] (-) JobUnselected: {'identifier': 'scara_bringup'}
+[0.002756] (-) JobUnselected: {'identifier': 'scara_description'}
+[0.002770] (-) EventReactorShutdown: {}

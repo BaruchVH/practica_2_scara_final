@@ -1,0 +1,5 @@
+  File "/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/scara_control.py", line 92
+    theta_3_in = theta_in -
+                           ^
+SyntaxError: invalid syntax
+

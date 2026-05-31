@@ -1,0 +1,55 @@
+[0.836s] Invoking command in '/home/arrgusr/ROS2Dev/ws_sem26_2/p0_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p0_py build --build-base /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build install --record /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/install.log --single-version-externally-managed install_data
+[1.092s] running egg_info
+[1.094s] creating ../build/p0_py/p0_py.egg-info
+[1.112s] writing ../build/p0_py/p0_py.egg-info/PKG-INFO
+[1.113s] writing dependency_links to ../build/p0_py/p0_py.egg-info/dependency_links.txt
+[1.113s] writing entry points to ../build/p0_py/p0_py.egg-info/entry_points.txt
+[1.114s] writing requirements to ../build/p0_py/p0_py.egg-info/requires.txt
+[1.114s] writing top-level names to ../build/p0_py/p0_py.egg-info/top_level.txt
+[1.114s] writing manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'
+[1.153s] reading manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'
+[1.153s] adding license file 'LICENSE'
+[1.154s] writing manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'
+[1.154s] running build
+[1.155s] running build_py
+[1.155s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build
+[1.155s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib
+[1.155s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[1.155s] copying p0_py/__init__.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[1.155s] copying p0_py/subscriber_node.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[1.155s] copying p0_py/q_plan.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[1.155s] copying p0_py/scara_control.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[1.155s] copying p0_py/primer_nodo.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[1.156s] running install
+[1.162s] running install_lib
+[1.181s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[1.181s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/__init__.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[1.181s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/subscriber_node.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[1.181s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/q_plan.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[1.181s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/scara_control.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[1.181s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/primer_nodo.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[1.182s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/__init__.py to __init__.cpython-312.pyc
+[1.182s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/subscriber_node.py to subscriber_node.cpython-312.pyc
+[1.183s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/q_plan.py to q_plan.cpython-312.pyc
+[1.184s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/scara_control.py to scara_control.cpython-312.pyc
+[1.185s]   File "/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/scara_control.py", line 92
+[1.185s]     theta_3_in = theta_in -
+[1.185s]                            ^
+[1.185s] SyntaxError: invalid syntax
+[1.185s] 
+[1.185s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/primer_nodo.py to primer_nodo.cpython-312.pyc
+[1.185s] running install_data
+[1.185s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index
+[1.185s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index
+[1.185s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index/packages
+[1.186s] copying resource/p0_py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index/packages
+[1.186s] copying package.xml -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/p0_py
+[1.186s] running install_egg_info
+[1.206s] Copying ../build/p0_py/p0_py.egg-info to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py-0.0.0-py3.12.egg-info
+[1.206s] running install_scripts
+[1.331s] Installing primer_node_py script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py
+[1.331s] Installing q_plan script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py
+[1.331s] Installing scara_control script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py
+[1.331s] Installing subscriber_node_py script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py
+[1.331s] writing list of installed files to '/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/install.log'
+[1.376s] Invoked command in '/home/arrgusr/ROS2Dev/ws_sem26_2/p0_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p0_py build --build-base /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build install --record /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/install.log --single-version-externally-managed install_data

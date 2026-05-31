@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000565] (-) JobUnselected: {'identifier': 'scara_bringup'}
+[0.000630] (-) JobUnselected: {'identifier': 'scara_description'}
+[0.000675] (p0_py) JobQueued: {'identifier': 'p0_py', 'dependencies': OrderedDict()}
+[0.000724] (p0_py) JobStarted: {'identifier': 'p0_py'}
+[0.097920] (-) TimerEvent: {}
+[0.198769] (-) TimerEvent: {}
+[0.300957] (-) TimerEvent: {}
+[0.404669] (-) TimerEvent: {}
+[0.505241] (-) TimerEvent: {}
+[0.605546] (-) TimerEvent: {}
+[0.705989] (-) TimerEvent: {}
+[0.807031] (-) TimerEvent: {}
+[0.907305] (-) TimerEvent: {}
+[1.007822] (-) TimerEvent: {}
+[1.110016] (-) TimerEvent: {}
+[1.210696] (-) TimerEvent: {}
+[1.314550] (-) TimerEvent: {}
+[1.356356] (p0_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/p0_py', 'build', '--build-base', '/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build', 'install', '--record', '/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/arrgusr/ROS2Dev/ws_sem26_2/p0_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'arrgusr', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/mujoco/mujoco320/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/opt/mujoco/mujoco320/bin', 'HOME': '/home/arrgusr', 'OLDPWD': '/home/arrgusr/ROS2Dev/ws_sem26_2', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/arrgusr/.nvm/versions/node/v22.18.0/bin', 'PYENV_SHELL': 'bash', 'NVM_INC': '/home/arrgusr/.nvm/versions/node/v22.18.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2533', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIT_PS1_SHOWUNTRACKEDFILES': 'true', 'COLORTERM': 'truecolor', 'GIT_PS1_SHOWSTASHSTATE': 'true', 'NVM_DIR': '/home/arrgusr/.nvm', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arrgusr/ROS2Dev/ws_sem26_2/install:/home/arrgusr/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arrgusr', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arrgusr', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/arrgusr/.nvm/versions/node/v22.18.0/bin:/home/arrgusr/.pyenv/shims:/home/arrgusr/.pyenv/bin:/home/arrgusr/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/arrgusr/.cargo/bin:/home/arrgusr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/nvim/', 'SESSION_MANAGER': 'local/arrg-vm:@/tmp/.ICE-unix/2498,unix/arrg-vm:/tmp/.ICE-unix/2498', 'GIT_PS1_SHOWDIRTYSTATE': 'true', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/96eb92b8_1100_4717_b014_babf0b2f7b3a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'MUJOCO_PY_MUJOCO_PATH': '/opt/mujoco/mujoco320', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YGH0P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/arrgusr/ROS2Dev/ws_sem26_2/install/scara_description:/home/arrgusr/ROS2Dev/ws_sem26_2/install/scara_bringup:/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': 'true', 'NVM_CD_FLAGS': '', 'PYENV_ROOT': '/home/arrgusr/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages:/home/arrgusr/install/mock_service_manager_package/lib/python3.12/site-packages:/home/arrgusr/install/mock-package/lib/python3.12/site-packages:/home/arrgusr/install/jlab_mock_provider/lib/python3.12/site-packages:/home/arrgusr/install/jlab_mock_consumer/lib/python3.12/site-packages:/home/arrgusr/install/IPython doctest plugin/lib/python3.12/site-packages:/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/arrgusr/ROS2Dev/ws_sem26_2/install/scara_description:/home/arrgusr/ROS2Dev/ws_sem26_2/install/scara_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.415866] (-) TimerEvent: {}
+[1.517778] (-) TimerEvent: {}
+[1.618469] (-) TimerEvent: {}
+[1.619120] (p0_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.622251] (p0_py) StdoutLine: {'line': b'creating ../build/p0_py/p0_py.egg-info\n'}
+[1.639138] (p0_py) StdoutLine: {'line': b'writing ../build/p0_py/p0_py.egg-info/PKG-INFO\n'}
+[1.639361] (p0_py) StdoutLine: {'line': b'writing dependency_links to ../build/p0_py/p0_py.egg-info/dependency_links.txt\n'}
+[1.639421] (p0_py) StdoutLine: {'line': b'writing entry points to ../build/p0_py/p0_py.egg-info/entry_points.txt\n'}
+[1.639559] (p0_py) StdoutLine: {'line': b'writing requirements to ../build/p0_py/p0_py.egg-info/requires.txt\n'}
+[1.639651] (p0_py) StdoutLine: {'line': b'writing top-level names to ../build/p0_py/p0_py.egg-info/top_level.txt\n'}
+[1.639821] (p0_py) StdoutLine: {'line': b"writing manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'\n"}
+[1.683517] (p0_py) StdoutLine: {'line': b"reading manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'\n"}
+[1.683845] (p0_py) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.684336] (p0_py) StdoutLine: {'line': b"writing manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'\n"}
+[1.684779] (p0_py) StdoutLine: {'line': b'running build\n'}
+[1.684920] (p0_py) StdoutLine: {'line': b'running build_py\n'}
+[1.684999] (p0_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build\n'}
+[1.685167] (p0_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib\n'}
+[1.685278] (p0_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py\n'}
+[1.685339] (p0_py) StdoutLine: {'line': b'copying p0_py/__init__.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py\n'}
+[1.685450] (p0_py) StdoutLine: {'line': b'copying p0_py/subscriber_node.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py\n'}
+[1.685569] (p0_py) StdoutLine: {'line': b'copying p0_py/q_plan.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py\n'}
+[1.685702] (p0_py) StdoutLine: {'line': b'copying p0_py/scara_control.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py\n'}
+[1.685957] (p0_py) StdoutLine: {'line': b'copying p0_py/primer_nodo.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py\n'}
+[1.686162] (p0_py) StdoutLine: {'line': b'running install\n'}
+[1.693078] (p0_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.712479] (p0_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py\n'}
+[1.712704] (p0_py) StdoutLine: {'line': b'copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/__init__.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py\n'}
+[1.712796] (p0_py) StdoutLine: {'line': b'copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/subscriber_node.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py\n'}
+[1.712901] (p0_py) StdoutLine: {'line': b'copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/q_plan.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py\n'}
+[1.712967] (p0_py) StdoutLine: {'line': b'copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/scara_control.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py\n'}
+[1.713020] (p0_py) StdoutLine: {'line': b'copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/primer_nodo.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py\n'}
+[1.713346] (p0_py) StdoutLine: {'line': b'byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/__init__.py to __init__.cpython-312.pyc\n'}
+[1.713682] (p0_py) StdoutLine: {'line': b'byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/subscriber_node.py to subscriber_node.cpython-312.pyc\n'}
+[1.714219] (p0_py) StdoutLine: {'line': b'byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/q_plan.py to q_plan.cpython-312.pyc\n'}
+[1.715224] (p0_py) StdoutLine: {'line': b'byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/scara_control.py to scara_control.cpython-312.pyc\n'}
+[1.716482] (p0_py) StderrLine: {'line': b'  File "/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/scara_control.py", line 92\n'}
+[1.716680] (p0_py) StderrLine: {'line': b'    theta_3_in = theta_in -\n'}
+[1.716738] (p0_py) StderrLine: {'line': b'                           ^\n'}
+[1.716789] (p0_py) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[1.716840] (p0_py) StderrLine: {'line': b'\n'}
+[1.716952] (p0_py) StdoutLine: {'line': b'byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/primer_nodo.py to primer_nodo.cpython-312.pyc\n'}
+[1.717295] (p0_py) StdoutLine: {'line': b'running install_data\n'}
+[1.717521] (p0_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index\n'}
+[1.717718] (p0_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index\n'}
+[1.717839] (p0_py) StdoutLine: {'line': b'creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index/packages\n'}
+[1.717900] (p0_py) StdoutLine: {'line': b'copying resource/p0_py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index/packages\n'}
+[1.717951] (p0_py) StdoutLine: {'line': b'copying package.xml -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/p0_py\n'}
+[1.718002] (p0_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.718871] (-) TimerEvent: {}
+[1.738810] (p0_py) StdoutLine: {'line': b'Copying ../build/p0_py/p0_py.egg-info to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py-0.0.0-py3.12.egg-info\n'}
+[1.739565] (p0_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.819414] (-) TimerEvent: {}
+[1.865524] (p0_py) StdoutLine: {'line': b'Installing primer_node_py script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py\n'}
+[1.865721] (p0_py) StdoutLine: {'line': b'Installing q_plan script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py\n'}
+[1.865779] (p0_py) StdoutLine: {'line': b'Installing scara_control script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py\n'}
+[1.865850] (p0_py) StdoutLine: {'line': b'Installing subscriber_node_py script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py\n'}
+[1.865904] (p0_py) StdoutLine: {'line': b"writing list of installed files to '/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/install.log'\n"}
+[1.908506] (p0_py) CommandEnded: {'returncode': 0}
+[1.920113] (-) TimerEvent: {}
+[1.932883] (p0_py) JobEnded: {'identifier': 'p0_py', 'rc': 0}
+[1.933351] (-) EventReactorShutdown: {}

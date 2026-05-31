@@ -1,0 +1,53 @@
+[1.797s] Invoking command in '/home/arrgusr/ROS2Dev/ws_sem26_2/p0_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p0_py build --build-base /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build install --record /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/install.log --single-version-externally-managed install_data
+[2.090s] running egg_info
+[2.091s] creating ../build/p0_py/p0_py.egg-info
+[2.113s] writing ../build/p0_py/p0_py.egg-info/PKG-INFO
+[2.113s] writing dependency_links to ../build/p0_py/p0_py.egg-info/dependency_links.txt
+[2.114s] writing entry points to ../build/p0_py/p0_py.egg-info/entry_points.txt
+[2.114s] writing requirements to ../build/p0_py/p0_py.egg-info/requires.txt
+[2.114s] writing top-level names to ../build/p0_py/p0_py.egg-info/top_level.txt
+[2.115s] writing manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'
+[2.159s] reading manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'
+[2.160s] adding license file 'LICENSE'
+[2.161s] writing manifest file '../build/p0_py/p0_py.egg-info/SOURCES.txt'
+[2.161s] running build
+[2.162s] running build_py
+[2.162s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build
+[2.162s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib
+[2.162s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[2.163s] copying p0_py/__init__.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[2.163s] copying p0_py/subscriber_node.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[2.163s] copying p0_py/q_plan.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[2.164s] copying p0_py/scara_control.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[2.164s] copying p0_py/primer_nodo.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py
+[2.165s] running install
+[2.172s] running install_lib
+[2.200s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[2.200s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/__init__.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[2.201s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/subscriber_node.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[2.203s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/q_plan.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[2.208s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/scara_control.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[2.208s] copying /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build/lib/p0_py/primer_nodo.py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py
+[2.210s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/__init__.py to __init__.cpython-312.pyc
+[2.212s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/subscriber_node.py to subscriber_node.cpython-312.pyc
+[2.215s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/q_plan.py to q_plan.cpython-312.pyc
+[2.216s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/scara_control.py to scara_control.cpython-312.pyc
+[2.218s]   File "/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/scara_control.py", line 92
+[2.218s]     theta_3_in = theta_in -
+[2.218s]                            ^
+[2.218s] SyntaxError: invalid syntax
+[2.219s] 
+[2.219s] byte-compiling /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py/primer_nodo.py to primer_nodo.cpython-312.pyc
+[2.221s] running install_data
+[2.223s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index
+[2.223s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index
+[2.223s] creating /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index/packages
+[2.223s] copying resource/p0_py -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/ament_index/resource_index/packages
+[2.224s] copying package.xml -> /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/share/p0_py
+[2.224s] running install_egg_info
+[2.265s] Copying ../build/p0_py/p0_py.egg-info to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages/p0_py-0.0.0-py3.12.egg-info
+[2.267s] running install_scripts
+[2.424s] Installing primer_node_py script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py
+[2.425s] Installing subscriber_node_py script to /home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/p0_py
+[2.428s] writing list of installed files to '/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/install.log'
+[2.487s] Invoked command in '/home/arrgusr/ROS2Dev/ws_sem26_2/p0_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arrgusr/ROS2Dev/ws_sem26_2/install/p0_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/p0_py build --build-base /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/build install --record /home/arrgusr/ROS2Dev/ws_sem26_2/build/p0_py/install.log --single-version-externally-managed install_data

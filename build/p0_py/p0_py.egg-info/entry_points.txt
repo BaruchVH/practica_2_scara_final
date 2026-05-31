@@ -1,0 +1,5 @@
+[console_scripts]
+primer_node_py = p0_py.primer_nodo:main
+q_plan = p0_py.q_plan:main
+scara_control = p0_py.scara_control:main
+subscriber_node_py = p0_py.subscriber_node:main
